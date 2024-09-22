@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-// AIzaSyAYryQGn5wi08bQ6-lgJMZOZIdeu6y67tI
-const key = 'AIzaSyAYryQGn5wi08bQ6-lgJMZOZIdeu6y67tI';
+const key = 'api key';
 export default function YoutubeProfile() {
   const [subscriberCount, setSubscriberCount] = useState(null);
   const [channelName, setChannelName] = useState('');
